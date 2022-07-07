@@ -35,7 +35,7 @@ body {
   padding-bottom: 50px;
 }
 
-a {
+.button a {
   text-decoration: none;
   background-color: rgb(250, 122, 100);
   padding: 15px 40px;
@@ -127,4 +127,24 @@ a {
   font-size: 15px;
   font-weight: 400;
   padding: 0;
+}
+
+/* form */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 246, 236);
+  border-radius: 10px;
+  padding: 50px 100px;
+  align-items: center;
+}
+
+.form input {
+  margin: 20px;
+  background-color: rgb(255, 246, 236);
+}
+
+.form-button {
+  margin-top: 50px;
 }
